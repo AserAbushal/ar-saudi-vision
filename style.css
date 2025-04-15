@@ -175,3 +175,12 @@ body.dark-mode #about {
   border-radius: 3px;
   font-weight: 600;
 }
+/* Fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fade-in {
+  animation: fadeIn 1.5s ease-in forwards;
+}
