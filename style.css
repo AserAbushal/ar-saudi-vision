@@ -152,3 +152,11 @@ body.dark-mode h3 {
 body {
   transition: background-color 0.3s, color 0.3s;
 }
+#about {
+  padding: 50px;
+  background-color: #f9f9f9;
+}
+
+body.dark-mode #about {
+  background-color: #1e1e1e;
+}
