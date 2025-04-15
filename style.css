@@ -105,17 +105,15 @@ footer {
   text-align: center;
   padding: 1rem 0;
 }
-/* Dark mode styles */
 body.dark-mode {
-    background-color: #121212;
-    color: #ffffff;
+  background-color: #121212;
+  color: #ffffff;
 }
 
 body.dark-mode a {
-    color: #90caf9;
+  color: #90caf9;
 }
 
-/* Optional smooth transition */
 body {
-    transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
 }
